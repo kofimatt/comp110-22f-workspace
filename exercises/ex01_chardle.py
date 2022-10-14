@@ -16,27 +16,26 @@ print("Searching for " + letter + " in " + question)
 
 counter: int = 0
 if letter == question[0]:
-        print(letter + " found at index 1")
+        print(letter + " found at index 0")
         counter+=1
         contains = True
 if letter == question[1]:
-        print(letter + " found at index 2")
+        print(letter + " found at index 1")
         counter+=1
         contains = True
 if letter == question[2]:
-        print(letter + " found at index 3")
+        print(letter + " found at index 2")
         counter+=1
         contains = True
 if letter == question[3]:
-        print(letter + " found at index 4")
+        print(letter + " found at index 3")
         counter+=1
         contains = True
 if letter == question[4]:
-        print(letter + " found at index 5")
+        print(letter + " found at index 4")
         counter+=1
         contains = True
-else:
+elif contains == False:
     print("No instances of " + letter + " found in " + question)
-    print(str(counter) + " instances of " + letter + " in " + question)
-
+    
 
