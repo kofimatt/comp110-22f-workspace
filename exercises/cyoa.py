@@ -1,5 +1,5 @@
 """Some kind of mystery that involves searching a sequence of rooms."""
-_author_ = "730495262"
+__author__ = "730495262"
 
 
 
