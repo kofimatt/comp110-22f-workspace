@@ -60,11 +60,10 @@ def main()-> None:
         
         turn_number +=1
     if game_result == "W":
-        print(f"You won in {turn_number}/6 turns!")
+        print(f"You won in {turn_number-1}/6 turns!")
     else:
         print("X/6 - Sorry, try again tomorrow")
     
-
 if __name__ == "__main__":
     main()
 

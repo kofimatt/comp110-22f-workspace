@@ -38,16 +38,6 @@ while i < len(guess):
     exists = False
     count = 0
 print(result)
-
-
-    
-
-
-
-
-    
-    
-
 if guess == secret_word:
     print("Woo! You got it!")
 else:
